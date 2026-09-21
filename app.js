@@ -34,7 +34,8 @@ function renderHome(){
   </div><aside class="home-side">
     ${infoPanel('IDENTIDAD DEL SERVIDOR','<ul class="check-list"><li><b>Framework:</b> QBCore</li><li><b>Idioma:</b> Español</li><li><b>Interfaz:</b> Marbella 4</li><li><b>Enfoque:</b> Historias y consecuencias</li></ul>')}
     ${infoPanel('ACCESO RÁPIDO',`<div class="quick-buttons">${extBtn('DISCORD',DISCORD_URL)}${extBtn('CONECTAR',CONNECT_URL)}</div>`,'accent-green')}
-    ${infoPanel('MARBELLA 4','<p class="small-copy">Interfaz inspirada directamente en Marbella Police, con los mismos sonidos y lenguaje visual.</p>','accent-orange')}
+    ${infoPanel('MARBELLA 4','<p class="small-copy">Toda la identidad visual de Marbella 4 ha sido creada con el objetivo de ofrecer una experiencia única, reconocible y coherente dentro y fuera del servidor. Desde la estructura de la interfaz hasta los elementos gráficos, sonidos, menús y detalles visuales, cada apartado ha sido diseñado para mantener una línea propia y reforzar la esencia de Marbella 4 Roleplay.
+Diseño, concepto y desarrollo visual por OdiseoNetwork.</p>','accent-orange')}
   </aside></div>`;
 }
 function renderServer(){
