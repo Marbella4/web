@@ -1,0 +1,11 @@
+name: Marbella 4 - Pages branch mode
+
+on:
+  workflow_dispatch:
+
+jobs:
+  info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Info
+        run: echo "GitHub Pages is published from main / (root). No custom deploy workflow is required."
